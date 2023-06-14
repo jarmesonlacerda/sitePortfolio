@@ -1,4 +1,4 @@
-
+/*função que ativa o elemento*/
 function ativaLetra(elemento) {
     const arrTexto = elemento.innerHTML.split('');
     elemento.innerHTML = '';
