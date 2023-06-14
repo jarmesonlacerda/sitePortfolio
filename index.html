@@ -1,47 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
+
 <body>
     <header>
         <h1>Port<span>Folio</span></h1> 
         
         <nav>
             <ul class="navegacao-primaria">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="portfolio">Portfolio</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+                <li class="#home">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="#about">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="#resume">
+                  <a class="nav-link" href="#">Resume</a>
+                </li>
+
+                <li class="#portfolio">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                  </li>
+
+                  <li class="#pricing">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+
+                  <li class="#contact">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
             </ul>
+           
         </nav>
     </header>
+    
     <section aria-label="seção curriculo download Jarmeson Lacerda" class="section-div">
+
         <div>
-            <h2>Olá eu, sou <span>Jarmeson Lacerda</span></h2>
-            <h3 class="digitando">Bacharel em Sistemas de Informação, pós Graduado em Marketing Digital</h3>
-            <p name="especializacoes">Com especializações em Designer Gráfico / Motion Designer / 
+
+            <h1>Olá eu, sou <span>Jarmeson Lacerda</span></h1>
+            <h2 class="digitando">Bacharel em Sistemas de Informação, pós Graduado em Marketing Digital</h2>
+            <p name="especializacoes">Com especializações em Designer Gráfico | Motion Designer | 
                 UX/UI Designer</p>
-            <h4>Um pouco sobre mim :</h4>
+            <h2>Um pouco sobre mim :</h2>
             <p name="apresentacao">Estou sempre em busca de conhecimento  para aperfeiçoar
                 minhas habilidades e competências, acredito
                 que isso pode nos mover a outros patamares profissionais e pessoais. Gosto de 
-                trabalhar em equipe, ouvir criticas que me faça melhorar e enxergar o imperceptível.
-                Tenho vários sonhos, como por exemplo: ajudar minha família (mãe, pai e irmã), construir minha própria família e sempre
-                que possível viajar para conhecer novas culturas.
+                trabalhar em equipe, ouvir críticas para melhor enxergar o imperceptível durante o desenvolvimento do projeto.
+                Tenho vários sonhos, como por exemplo: ajudar minha família (mãe, pai e irmã), construir minha própria família, ter meu próprio
+                escritório e sempre que possível viajar para conhecer novas culturas.
             </p>
             <a href="botao">Download CV</a>
             
         </div>
+
         <img src="img/PB2.png" alt="Foto de jarmeson Lacerda">
     </section>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <scrip src="bootstrap/js/bootstrap.min.js"></scrip>
 </body>
 </html>
