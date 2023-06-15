@@ -16,6 +16,7 @@
 }
 
 body {
+   background-color: #000;
    background-image: linear-gradient(
      45deg, #221133, black, black, #221133
    )
@@ -137,4 +138,20 @@ body {
    }
  }
 
+/*Seção principal sobre mim*/
 
+main {
+   background-image: linear-gradient(
+     45deg, #221133, black, black, #221133
+   )
+}
+
+main .sobre {
+   margin-top: 60px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-content: center;
+   
+   gap: 30px;
+   padding: 40px;
+}
