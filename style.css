@@ -326,10 +326,39 @@ main .sobre {
     justify-self: center;
   }
   .sobre_conteudo {
-    grid-column: 1-1;
+    grid-column: 1/-1;
   }
 }
 
+/*SEÇÃO SERVICES*/
+
+.services {
+  margin-top: -30px;
+  padding: 60px;
+  background-color: #151515;
+}
+
 .my_services {
+  padding: 60px;
   color: white;
+}
+
+.my_services ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_services ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+  display: grid;
+  gap: 30px;
+  text-align: center;
+  max-width: 300px;
+  height: 300px;
+  background-color: #222;
 }
